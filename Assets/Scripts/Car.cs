@@ -9,7 +9,7 @@ public class Car : MonoBehaviour
     [SerializeField] float speed = 0f;
     [SerializeField] float speedIncrementPerSecond = 0f;
     [SerializeField] float turnSpeed = 200f;
-     int steerValue = 0 ;
+    int steerValue = 0 ;
     // Update is called once per frame
     void Update()
     {
@@ -25,7 +25,6 @@ public class Car : MonoBehaviour
             SceneManager.LoadScene(0);
             
         }
-
 
 
     }
